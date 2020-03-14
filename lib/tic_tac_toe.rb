@@ -67,6 +67,7 @@ class TicTacToe
 
   def turn
     puts 'Give me number 1-9'
+    display_board
     input = gets.strip
     idx = input_to_index(input)
     if valid_move?(idx) == true
