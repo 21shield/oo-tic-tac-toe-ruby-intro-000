@@ -126,9 +126,13 @@ class TicTacToe
     end
     if won? != false
       win = winner
+<<<<<<< HEAD
       puts "Congratulations #{win}!"
     elsif draw? == true
       puts "Cat's Game!"
+=======
+      puts "Congratulations Player #{winner}!"
+>>>>>>> b6afa195379deeb8660ede93f08624dd79520c67
     end
   end
 #end of class
