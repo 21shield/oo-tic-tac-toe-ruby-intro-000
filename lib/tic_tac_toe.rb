@@ -66,6 +66,7 @@ class TicTacToe
   end
 
   def turn
+    puts 'Welcome to the game of Tic Tac Toe'
     puts 'Give me number 1-9'
     display_board
     input = gets.strip
